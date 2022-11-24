@@ -34,6 +34,5 @@ COPY . /ngnix_from_source_docker
 
 # #run the server 
 
-RUN uvicorn main:ap --reload 
 
 
